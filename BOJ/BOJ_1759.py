@@ -12,6 +12,5 @@ for temp in res:
     for i in temp:
         if i in mo:
             cnt += 1
-
     if cnt >= 1 and cnt <= l - 2:
         print(''.join(temp))
