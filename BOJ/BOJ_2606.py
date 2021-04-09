@@ -8,7 +8,6 @@ for i in range(p):
     a,b = map(int, input().split())
     map2[a][b] = 1
     map2[b][a] = 1
-
 q = deque([1])
 visit[1] = 1
 cnt = 0
