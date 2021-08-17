@@ -32,5 +32,4 @@ for k in ans:
         res += abs(ridx[0] - tidx[0]) + abs(ridx[1] - tidx[1]) + 1
         ridx = [tidx[0], tidx[1]]
 
-
 print(res)
